@@ -1,52 +1,39 @@
 {
   "employees": [
     {
-      "name": "Mohit Kumar",
-      "email": "mohit1@gmail.com",
+      "name": "User 1",
+      "email": "User1@gmail.com",
       "role": "Developer",
-      "department": "CSE",
+      "department": "IT",
       "id": "8876"
     },
     {
       "id": "faf4",
-      "name": "Nitin Singh",
-      "email": "nitin@gmail.com",
+      "name": "User 2",
+      "email": "User2@gmail.com",
       "role": "QA",
-      "department": "CSE"
-    },
-        {
-      "name": "Rohit Kumar",
-      "email": "rohit1@gmail.com",
-      "role": "Tester",
-      "department": "CSE",
-      "id": "512f"
+      "department": "IT"
     },
     {
-      "name": "Dhanashri Tak",
-      "email": "dhanashri.tak@gmail.com",
-      "role": "Developer",
-      "department": "CSE",
-      "id": "jzepMSEtrOw"
+      "name": "User 4",
+      "email": "User4@gmail.com",
+      "role": "Tester",
+      "department": "IT",
+      "id": "NJcB_5GmXUA"
     }
   ],
   "Leaves": [
     {
       "id": "1",
-      "employee": "Mohit Kumar",
+      "employee": "User 1",
       "reason": "Medical",
       "status": "Approved"
     },
     {
       "id": "2",
-      "employee": "Nitin Singh",
+      "employee": "User 2",
       "reason": "Personal",
       "status": "Pending"
-    },
-    {
-      "id": "3",
-      "employee": "Rohit Kumar",
-      "reason": "Vacation",
-      "status": "Approved"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
